@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <Navbar />
-    <HeroSection />
+
     <!-- <div id="nav">
       <router-link to="/">Home</router-link>
       |
@@ -15,13 +15,11 @@
 
 <script>
 import Navbar from "./components/Navbar.vue";
-import HeroSection from "./components/HeroSection.vue";
 
 export default {
   name: "app",
   components: {
     Navbar,
-    HeroSection,
   },
 };
 </script>
