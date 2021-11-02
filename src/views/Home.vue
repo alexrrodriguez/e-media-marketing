@@ -6,6 +6,8 @@
       <Counts />
       <Video />
       <Clients />
+      <Testimonials />
+      <Services />
     </main>
   </div>
 </template>
@@ -16,6 +18,8 @@ import About from "../components/About.vue";
 import Counts from "../components/Counts.vue";
 import Video from "../components/Video.vue";
 import Clients from "../components/Clients.vue";
+import Testimonials from "../components/Testimonials.vue";
+import Services from "../components/Services.vue";
 
 export default {
   name: "app",
@@ -25,6 +29,8 @@ export default {
     Counts,
     Video,
     Clients,
+    Testimonials,
+    Services,
   },
 };
 </script>
